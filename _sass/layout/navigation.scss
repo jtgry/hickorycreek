@@ -73,7 +73,7 @@
   right: 15px;
   top: 35px;
   display: none;
-
+  transition: all .2s ease-in-out;
 }
 
 .nav-items ul li{
@@ -87,7 +87,7 @@
 .nav-items ul li a{
   color: $color-white;
   font-size: 14px;
-  transition: all .2s ease-in-out;
+
 }
 .nav-items ul li a:hover {
   text-decoration: none;
