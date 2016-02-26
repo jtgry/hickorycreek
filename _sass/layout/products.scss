@@ -8,7 +8,6 @@
   margin: 2% 8%;
   display:block;
   position:relative;
-  text-align: center;
 }
 .product-item-container{
   width: 100%;
@@ -38,7 +37,17 @@
 .product-item .product-item-image{
     width: 30%;
     padding-bottom: 30%;
-    object-fit: cover;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+
 }
 .product-item .product-item-overlay{
   height: 400px;
