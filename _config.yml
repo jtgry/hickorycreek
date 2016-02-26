@@ -12,9 +12,6 @@ markdown: kramdown
 
 
 collections:
-  hats:
-    output: true
-    permalink: /products/:path/
-  ties:
+  products:
     output: true
     permalink: /products/:path/
