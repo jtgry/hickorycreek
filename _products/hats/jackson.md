@@ -3,8 +3,8 @@ layout: product
 title: "Jackson"
 brand: "Hickory Creek"
 category: 
-  - "hat"
-  - "feaured"
+  - hat
+  - feaured
 price: "$140.00"
 sku: "JAK"
 image_path: "/images/jackson/jackson.jpg"
