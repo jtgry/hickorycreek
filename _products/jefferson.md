@@ -1,6 +1,6 @@
 ---
 layout: product
-title: "Jackson"
+title: "Jefferson"
 brand: "Hickory Creek"
 price: "$140.00"
 sku: "JAK"
