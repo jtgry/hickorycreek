@@ -67,8 +67,8 @@
     transition: background-color .5s;
 }
 .product-item:hover .product-item-overlay{
-  height: 400px;
-  width: 400px;
+  width: 1000%;
+  padding-bottom: 100%;
   margin: 0 auto;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.0);
