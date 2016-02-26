@@ -23,7 +23,7 @@ input[type="button"]{
   text-transform: uppercase;
   transition: background-color 200ms ease-in-out 0s;
   padding: 1.5em 3em 1.5em;
-  margin: 0 20px;
+  margin: 0 2%;
 }
 .button:hover, .button:focus, .button:active {
     background-color: $brand-color;
@@ -42,5 +42,5 @@ input[type="button"]{
   color: #fff;
 }
 .button-wide{
-    width: 80%;
+    width: 76%;
 }
