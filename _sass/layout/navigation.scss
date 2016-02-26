@@ -66,6 +66,7 @@
   position: absolute;
   right: 15px;
   top: 35px;
+  display: none;
 }
 
 .nav-items ul li{
@@ -93,4 +94,13 @@
   background-repeat: repeat-x;
   background-size: 3px 3px;
   background-position: 0 83px;
+}
+
+@include laptop {
+  .menu{
+    display: none;
+  }
+  .nav-items{
+    display: block;
+  }
 }
