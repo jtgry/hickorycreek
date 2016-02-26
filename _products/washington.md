@@ -2,6 +2,7 @@
 layout: product
 title: "Washington"
 brand: "Hickory Creek"
+category: 'hat'
 price: "$140.00"
 sku: "JAK"
 image_path: "/images/jackson/jackson.jpg"
