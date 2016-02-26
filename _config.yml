@@ -1,0 +1,18 @@
+# Site settings
+title: HICKORY CREEK | MADE IN ALABAMA
+email: tgray.it@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Born and raised in central Alabama, I have a passion for designing and developing for the web and a propensity for consistent branding.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://hickorycreek.co" # the base hostname & protocol for your site
+twitter_username: jtgry
+github_username:  jtgry
+
+# Build settings
+markdown: kramdown
+
+
+collections:
+  products:
+      output: true
+      permalink: /products/:path/

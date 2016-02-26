@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% include header.html %}
+<section id="intro" class="page-content">
+  <div class="content-block">
+    <h2 class="content-block-title 1">Handcrafted Goods, Made In Alabama</h2>
+    </div>
+  </div>
+</section>
+<section id="products" class="products">
+  <h2 class="content-block-title">Featured Products</h2>
+  <hr class="content-block-hr">
+  {% for product in site.products %}
+  <a href="{{ product.url }}">
+    <div class="product-item">
+      <div class="product-item-image" style="background-image: url({{ product.image_path }});">
+        <div class="product-item-overlay"></div>    
+      </div>
+      <p class="text-center product-item-title">{{ product.title }} - {{ product.price }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</section>
+{% include contact-form.html %}
+<!--<section id="about" class="about">
+  <div class="text-center">
+    <h2 class="footer-title 1">Let's be friends.</h2>
+    <hr class="content-block-hr 2">
+    <img class="me 3" src="/images/me.jpg" />
+    <ul class="social-links 3">
+      <li><a href="//facebook.com/tgray.it">FACEBOOK</a></li>
+      <li>//</li>
+      <li><a href="//instagram.com/jtgry">INSTAGRAM</a></li>
+      <li>//</li>
+      <li><a href="//twitter.com/jtgry">TWITTER</a></li>
+      <li>//</li>
+      <li><a href="//github.com/jtgry">GITHUB</a></li>
+    </ul>
+  </div>
+</section>-->
