@@ -65,7 +65,7 @@
 .nav-items{
   position: absolute;
   right: 15px;
-  top: 25px;
+  top: 40px;
 }
 
 .nav-items ul li{
@@ -78,6 +78,7 @@
 }
 .nav-items ul li a{
   color: $color-white;
+  font-size: 14px;
 }
 .nav-items ul li a:hover {
   text-decoration: none;
