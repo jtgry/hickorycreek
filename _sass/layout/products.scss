@@ -35,19 +35,9 @@
     margin-bottom: 4px;
 }
 .product-item .product-item-image{
-    height: 400px;
-    width: 400px;
-    margin: 0 auto;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-
+    width: 100%;
+    height: 100%:
+    object-fit: cover;
 }
 .product-item .product-item-overlay{
   height: 400px;
