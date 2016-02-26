@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+.nav-bar{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 9999;
+}
+.nav-solid{
+  background-color: $color-white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.nav-solid .icon{
+  top: 32px;
+}
+.nav-solid .menui{
+  background-color: $brand-color;
+}
+.nav-solid .top-menu {
+    top: 0px;
+    width: 30px;
+    height: 3px;
+}
+.nav-solid .mid-menu {
+    top: 8px;
+    width: 30px;
+    height: 3px;
+}
+.nav-solid .bottom-menu {
+    top: 16px;
+    width: 30px;
+    height: 3px;
+}
+.nav-solid .top-animate {
+    top: 8px !important;
+}
+.nav-solid .mid-animate {
+    opacity: 0;
+}
+.nav-solid .bottom-animate {
+    top: 8px !important;
+}
+.nav-solid .nav-logo{
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 7px;
+  color: $brand-color;
+}
+.nav-clear{
+  background-color: rgba(255,255,255,0);
+}
+.nav-logo{
+  font-size: 24px;
+  padding: 14px 11px;
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  position: absolute;
+  color: $color-white;
+  transition: all .2s ease-in-out;
+}
+.nav-items{
+  position: absolute;
+  top: 2em;
+  right: 1.5em;
+}
+
+.nav-items ul li{
+  display: inline;
+  list-style: none;
+  padding: 0 1em;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: $base-font-size;
+}
+.nav-items ul li a{
+  color: $color-white;
+}
+.nav-items ul li a:hover {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(250, 250, 250, 1) 50%);
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  background-position: 0 83px;
+}
+.nav-items ul li a.active {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(250, 250, 250, 1) 50%);
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  background-position: 0 83px;
+}

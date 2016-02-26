@@ -1,0 +1,98 @@
+.products{
+  width: 100%;
+  float: left;
+}
+.product-item{
+  float: left;
+  width: 84%;
+  margin: 2% 8%;
+  display:block;
+  position:relative;
+}
+.product-item-container{
+  width: 100%;
+  height: auto;
+}
+
+.product-item-brand{
+    font-family: $base-font-family-bold;
+    color: $grey-color-light;
+    font-size: .9rem;
+    margin-top: 16px;
+    margin-bottom: -8px;
+    text-transform: uppercase;
+}
+.product-item-title{
+    font-family: $alt-font;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.product-item-price{
+    font-family: $base-font-family-bold;
+    color: $grey-color-light;
+    font-size: 1rem;
+    margin-top: -8px;
+    margin-bottom: 4px;
+}
+.product-item .product-item-image{
+    height: 40%;
+    width: 100%;
+    height: 40vh;
+    min-height: 40vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    
+}
+.product-item .product-item-overlay{
+    height: 40%;
+    width: 100%;
+    height: 40vh;
+    min-height: 40vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    vertical-align: middle;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    transition: background-color .5s;
+}
+.product-item:hover .product-item-overlay{
+    height: 40%;
+    width: 100%;
+    height: 40vh;
+    min-height: 40vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    vertical-align: middle;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+@include laptop {
+  .product-item{
+    float: left;
+    width: 30%;
+    margin: 2% 1.6%;
+    display: block;
+    position: relative;
+  }
+}
