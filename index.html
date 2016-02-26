@@ -13,7 +13,7 @@ layout: default
   {% for product in site.products %}
   <a href="{{ product.url }}">
     <div class="product-item">
-      <div class="product-item-image" style="background-image: url({{ product.image_path }});">
+      <div class="product-item-image">
         <img src="{{ product.image_path }}" alt="{{ product.title }}"/>
       </div>
       <p class="text-center product-item-brand">{{ product.brand }}</p>
