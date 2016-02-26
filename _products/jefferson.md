@@ -1,10 +1,14 @@
 ---
 layout: product
-title: Jefferson
-price: 140
-slug: jefferson
-sku: jeff
-image_path: /images/hickorycreek.jpg
+title: "Jackson"
+brand: "Hickory Creek"
+price: "$140.00"
+sku: "JAK"
+image_path: "/images/jackson/jackson.jpg"
+colors:
+  - color: Brown
+  - color: Black
+  - color: Navy
 ---
 
 * 100% Rabbit Fur.
