@@ -35,10 +35,9 @@
     margin-bottom: 4px;
 }
 .product-item .product-item-image{
-    height: 50%;
-    width: 100%;
-    height: 50vh;
-    min-height: 50vh;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -51,10 +50,9 @@
 
 }
 .product-item .product-item-overlay{
-    height: 50%;
-    width: 100%;
-    height: 50vh;
-    min-height: 50vh;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1);
     background-repeat: no-repeat;
@@ -69,21 +67,20 @@
     transition: background-color .5s;
 }
 .product-item:hover .product-item-overlay{
-    height: 50%;
-    width: 100%;
-    height: 50vh;
-    min-height: 50vh;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.0);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    vertical-align: middle;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  vertical-align: middle;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
 }
 
 @include laptop {
