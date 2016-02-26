@@ -2,7 +2,8 @@
 layout: product
 title: "Jefferson"
 brand: "Hickory Creek"
-category: 'bow'
+category: 
+  - 'hat'
 price: "$140.00"
 sku: "JAK"
 image_path: "/images/jackson/jackson.jpg"
