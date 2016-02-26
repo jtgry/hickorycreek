@@ -52,12 +52,14 @@
 }
 .nav-logo{
   font-size: 24px;
+  letter-spacing: .1em;
   padding: 14px 11px;
   margin: 0;
   margin-left: 15px;
   margin-top: 15px;
   position: absolute;
   color: $color-white;
+  font-family: $alt-font;
   transition: all .2s ease-in-out;
 }
 .nav-items{
