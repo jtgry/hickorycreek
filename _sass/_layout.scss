@@ -60,8 +60,11 @@ h2.content-block-title{
 
 #snipcart-header {
     background: #fafafa;
-    color: $text-color;
 
+
+}
+#snipcart-header #snipcart-title {
+    color: $text-color;
 }
 
 #snipcart-main-container select {
