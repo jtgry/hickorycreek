@@ -110,7 +110,18 @@ h2.content-block-title{
     border-radius: 3px;
     border: 1px solid #e5e5e5;
 }
-
+ #snipcart-main-container a.snipcart-next {
+    background: #87db57;
+    border-radius: 0;
+}
+#snipcart-main-container button.snipcart-btn {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0; 
+    -webkit-box-shadow: 0; 
+    -moz-box-shadow: 0;
+    box-shadow: 0;
+}
 .snipcart-overwrite #snipcart-footer {
     display: none;
 }
