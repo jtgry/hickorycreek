@@ -68,8 +68,12 @@ h2.content-block-title{
 }
 #snipcart-header #snipcart-header-total {
     background: #fff;
+    border: 0;
 }
+#snipcart-header #snipcart-total {
+    border: 0; 
 
+}
 #snipcart-header #snipcart-total span.snipcart-amount {
     color: $text-color;
 }
