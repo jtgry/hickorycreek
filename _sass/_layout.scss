@@ -110,6 +110,14 @@ h2.content-block-title{
     border-radius: 3px;
     border: 1px solid #e5e5e5;
 }
+#snipcart-steps li {
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    background: #ddd;
+}
+#snipcart-steps li.active {
+    background: #e3e3e3;
+}
  #snipcart-main-container a.snipcart-next {
     background: #87db57;
     border-radius: 0;
