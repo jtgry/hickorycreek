@@ -5,7 +5,7 @@ brand: "Hickory Creek"
 category: 
   - "hat"
   - "featured"
-price: "$140.00"
+price: "140.00"
 sku: "JAK"
 image_path: "/images/jackson/jackson.jpg"
 colors:
