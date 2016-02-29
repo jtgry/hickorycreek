@@ -90,6 +90,7 @@ h2.content-block-title{
 #snipcart-main-container div#snipcart-actions{
     background: #fff;
 }
+
 #snipcart-main-container select {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -108,6 +109,10 @@ h2.content-block-title{
     -moz-border-radius: 3px;
     border-radius: 3px;
     border: 1px solid #e5e5e5;
+}
+
+.snipcart-overwrite #snipcart-footer {
+    display: none;
 }
 
 
