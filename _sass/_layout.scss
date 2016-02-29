@@ -59,14 +59,17 @@ h2.content-block-title{
 }
 
 #snipcart-header {
-    background: #fafafa;
+    background: $background-color;
 
 
 }
 #snipcart-header #snipcart-title {
     color: $text-color;
 }
-
+#snipcart-main-content {
+    background-color: $background-color;
+    width: 100%;
+}
 #snipcart-main-container select {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
